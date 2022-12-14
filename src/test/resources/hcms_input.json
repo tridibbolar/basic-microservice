@@ -1,0 +1,42 @@
+[
+  {
+    "employeeId": 1,
+    "experience": 10.8,
+    "currentRole": "ARCH",
+    "yearsInCurrentRole": 5,
+    "goalCompletedForCurrentYear": true,
+    "clientAppreciationForCurrentYear": false
+  },
+  {
+    "employeeId": 2,
+    "experience": 5.8,
+    "currentRole": "ARCH",
+    "yearsInCurrentRole": 2,
+    "goalCompletedForCurrentYear": true,
+    "clientAppreciationForCurrentYear": true
+  },
+  {
+    "employeeId": 3,
+    "experience": 8,
+    "currentRole": "MANG",
+    "yearsInCurrentRole": 4,
+    "goalCompletedForCurrentYear": false,
+    "clientAppreciationForCurrentYear": true
+  },
+  {
+    "employeeId": 6,
+    "experience": 10,
+    "currentRole": "MANG",
+    "yearsInCurrentRole": 3,
+    "goalCompletedForCurrentYear": true,
+    "clientAppreciationForCurrentYear": false
+  },
+  {
+    "employeeId": 9,
+    "experience": 17,
+    "currentRole": "ARCH",
+    "yearsInCurrentRole": 7,
+    "goalCompletedForCurrentYear": false,
+    "clientAppreciationForCurrentYear": false
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "employeeId": 1,
+    "name": "Employee One",
+    "age": 27,
+    "gender": "F",
+    "address": "address one",
+    "isActive": true
+  },
+  {
+    "employeeId": 2,
+    "name": "Employee Two",
+    "age": 35,
+    "gender": "M",
+    "address": "address two",
+    "isActive": true
+  },
+  {
+    "employeeId": 3,
+    "name": "Employee Three",
+    "age": 40,
+    "gender": "",
+    "address": "address three",
+    "isActive": true
+  },
+  {
+    "employeeId": 6,
+    "name": "Employee New",
+    "age": 30,
+    "gender": "F",
+    "address": "new address for new employee",
+    "isActive": true
+  },
+  {
+    "employeeId": 9,
+    "name": "Employee Nine",
+    "age": 30,
+    "gender": "F",
+    "address": "address for new employee",
+    "isActive": true
+  }
+]

@@ -1,0 +1,42 @@
+# Spring properties
+spring:
+  application:
+    name: hcm-service  # Service registers under this name
+  freemarker:
+    enabled: false           # Ignore Eureka dashboard FreeMarker templates
+
+
+  cache:
+    jcache:
+      config=classpath:ehcache:
+        xml:# Map the error path to error template (for Thymeleaf)
+error.path: /error
+
+# HTTP Server
+server.port: 3333   # HTTP (Tomcat) port
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+management.endpoint.health.show-details: always
+
+#management.health.diskspace.enabled: false
+#management.health.circuitbreakers.enabled: true
+#management.health.ratelimiters.enabled: true
+
+# Discovery Server Access
+#  1. DEV ONLY: Reduce the lease renewal interval to speed up registration
+#  2. Define URL of registration server (defaultZone)
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 10   # DO NOT DO THIS IN PRODUCTION
+    preferIpAddress: true
+
+# Ehcache Config
+spring.cache.jcache.config: classpath:ehcache.xml
